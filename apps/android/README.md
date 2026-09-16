@@ -1,25 +1,48 @@
 # FInAI Android
 
-Native Android prototype for the FInAI companion app.
+Native Android application for the FinAI personal finance and market intelligence product.
 
 Current surfaces:
 
-- Main mobile app screen with Idea, Agents, and Monitor tabs.
+- Home dashboard with Personal / MOLOX Pro modes.
+- Notes feed for market events, saved items, impact tags, and Molly explanations.
+- Market workspace with watchlist, scenarios, editable thesis, and live MOLOX analysis.
+- Learn path generated from the user's recent money and market activity.
+- Profile, money limits, priority alerts, API connection, and paper-portfolio status.
+- Movable Molly assistant available over every screen.
 - Home-screen widget with safe-to-try amount and market note.
 - Demo fallback state aligned with the web/API scenario.
 - Live `POST /api/mobile/session` client for the FastAPI backend.
-- Editable API URL field for emulator or physical phone testing.
+- Editable API URL in Profile for emulator or physical phone testing.
 - Internet permission and cleartext local HTTP are configured for hackathon development.
 
 Development:
 
 1. Open `apps/android` in Android Studio.
-2. Let Gradle sync the project.
-3. Run the `app` configuration on a phone or emulator.
+2. Select JDK 17 under Settings > Build, Execution, Deployment > Build Tools > Gradle.
+3. Let Gradle sync the project.
+4. Run the `app` configuration on a phone or emulator.
 
-This machine does not currently expose Android Studio, Android SDK, or a Gradle wrapper in the project, so the APK build step starts after Android Studio syncs or after a Gradle wrapper is generated.
+On the current Mac, JDK 17 is installed at:
 
-The app opens with demo data and updates from the backend when the `Анализ` button is pressed.
+```text
+/Users/yedige.mussabayev/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home
+```
+
+The project includes a Gradle 8.9 wrapper and has been compiled into a debug APK:
+
+```bash
+cd apps/android
+./gradlew assembleDebug
+```
+
+APK output:
+
+```text
+apps/android/app/build/outputs/apk/debug/app-debug.apk
+```
+
+The app opens with a complete demo state and updates market, scenarios, agents, radar, portfolio, and the action state when `Run MOLOX analysis` is pressed.
 
 Local API targets:
 
