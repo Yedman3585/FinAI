@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "API: run",
+      "type": "shell",
+      "command": "./scripts/dev-api.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: run",
+      "type": "shell",
+      "command": "./scripts/dev-web.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Web: run with bundled Node",
+      "type": "shell",
+      "command": "./scripts/dev-web.sh",
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: assemble debug",
+      "type": "shell",
+      "command": "cd apps/android && if [ -x ./gradlew ]; then ./gradlew assembleDebug; else echo 'Gradle wrapper is not available yet. Open apps/android in Android Studio and sync the project first.'; exit 1; fi",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+openapi: 3.1.0
+info:
+  title: FInAI API
+  version: 0.1.0
+paths:
+  /health:
+    get:
+      summary: Health check
+  /api/finance/profile:
+    post:
+      summary: Calculate user financial summary
+  /api/markets/{symbol}/snapshot:
+    get:
+      summary: Get normalized market snapshot
+      parameters:
+        - name: symbol
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: provider
+          in: query
+          required: false
+          schema:
+            type: string
+            default: demo_cis
+  /api/markets/fx/{base}:
+    get:
+      summary: Get KZT FX rate from NBK with optional fallback
+      parameters:
+        - name: base
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [KZT, USD, EUR, RUB]
+  /api/markets/brief:
+    get:
+      summary: Build compact market monitor items for selected symbols
+      parameters:
+        - name: provider
+          in: query
+          required: false
+          schema:
+            type: string
+            default: demo_cis
+        - name: symbols
+          in: query
+          required: false
+          schema:
+            type: string
+            default: KSPI,AAPL,KZTK
+  /api/scenarios/investment:
+    post:
+      summary: Create a risk scenario and agent brief for a paper investment
+  /api/agents/engines:
+    get:
+      summary: List copied or available external research engines
+  /api/agents/prompts:
+    get:
+      summary: List prompt contracts for the core agent team
+  /api/agents/mandates:
+    get:
+      summary: List retail and Pro agent mandates
+  /api/agents/deep-analysis:
+    post:
+      summary: Run local multi-agent deep analysis for one investment idea
+  /api/agents/opportunity-radar:
+    post:
+      summary: Rank a watchlist of ideas for research priority
+  /api/agents/runs:
+    get:
+      summary: List saved deep-analysis runs
+  /api/agents/reviews:
+    get:
+      summary: List saved analysis review memos
+  /api/agents/runs/{run_id}:
+    get:
+      summary: Get one saved deep-analysis run
+      parameters:
+        - name: run_id
+          in: path
+          required: true
+          schema:
+            type: string
+  /api/agents/runs/{run_id}/memo:
+    get:
+      summary: Render a saved deep-analysis run as a markdown memo
+      parameters:
+        - name: run_id
+          in: path
+          required: true
+          schema:
+            type: string
+  /api/agents/runs/{run_id}/review:
+    get:
+      summary: Review a saved deep-analysis run against current market data
+      parameters:
+        - name: run_id
+          in: path
+          required: true
+          schema:
+            type: string
+  /api/mobile/session:
+    post:
+      summary: Build one phone-ready session for Android and mobile PWA
+  /api/portfolio/positions:
+    get:
+      summary: List open paper positions with refreshed market values
+    post:
+      summary: Create a new paper position from a market snapshot
+  /api/portfolio/positions/{position_id}:
+    delete:
+      summary: Close an open paper position
+      parameters:
+        - name: position_id
+          in: path
+          required: true
+          schema:
+            type: string
+components:
+  schemas:
+    FinancialProfile:
+      type: object
+      required: [monthly_income, currency, expenses]
+      properties:
+        monthly_income:
+          type: number
+        currency:
+          type: string
+          enum: [KZT, USD, EUR, RUB]
+        emergency_fund:
+          type: number
+        desired_investment_amount:
+          type: number
+        expenses:
+          type: array
+          items:
+            type: object
+            required: [name, amount]
+            properties:
+              name:
+                type: string
+              amount:
+                type: number
+              category:
+                type: string
+              recurring:
+                type: boolean
+    MarketSnapshot:
+      type: object
+      properties:
+        symbol:
+          type: string
+        provider:
+          type: string
+        exchange:
+          type: string
+        currency:
+          type: string
+        last_price:
+          type: number
+        day_change_percent:
+          type: number
+        volatility_30d:
+          type: number
+        liquidity_note:
+          type: string
+        source_note:
+          type: string
+        as_of:
+          type:
+            - string
+            - "null"
+    FxRate:
+      type: object
+      properties:
+        base:
+          type: string
+          enum: [KZT, USD, EUR, RUB]
+        quote:
+          type: string
+          enum: [KZT]
+        rate:
+          type: number
+        change:
+          type: number
+        as_of:
+          type:
+            - string
+            - "null"
+        provider:
+          type: string
+        source_note:
+          type: string
+    PaperPosition:
+      type: object
+      properties:
+        id:
+          type: string
+        symbol:
+          type: string
+        provider:
+          type: string
+        exchange:
+          type: string
+        currency:
+          type: string
+          enum: [KZT, USD, EUR, RUB]
+        amount:
+          type: number
+        quantity:
+          type: number
+        entry_price:
+          type: number
+        current_price:
+          type: number
+        current_value:
+          type: number
+        unrealized_percent:
+          type: number
+        status:
+          type: string
+        thesis:
+          type: string
+        created_at:
+          type: string
+        source_note:
+          type: string
+    AgentFinding:
+      type: object
+      properties:
+        role:
+          type: string
+        stance:
+          type: string
+        score:
+          type: number
+        confidence:
+          type: number
+        summary:
+          type: string
+        evidence:
+          type: array
+          items:
+            type: string
+        watch_items:
+          type: array
+          items:
+            type: string
+    DecisionMemo:
+      type: object
+      properties:
+        action:
+          type: string
+        conviction_score:
+          type: number
+        opportunity_score:
+          type: number
+        risk_score:
+          type: number
+        position_size_hint:
+          type: string
+        thesis:
+          type: string
+        invalidation_triggers:
+          type: array
+          items:
+            type: string
+        learning_focus:
+          type: array
+          items:
+            type: string
+    ExternalEngineStatus:
+      type: object
+      properties:
+        name:
+          type: string
+        present:
+          type: boolean
+        path:
+          type: string
+        license:
+          type: string
+        role:
+          type: string
+        integration_status:
+          type: string
+    AgentPromptTemplate:
+      type: object
+      properties:
+        role:
+          type: string
+        objective:
+          type: string
+        inputs:
+          type: array
+          items:
+            type: string
+        output_contract:
+          type: array
+          items:
+            type: string
+        guardrails:
+          type: array
+          items:
+            type: string
+    AgentMandate:
+      type: object
+      properties:
+        name:
+          type: string
+        audience:
+          type: string
+        objective:
+          type: string
+        allowed_markets:
+          type: array
+          items:
+            type: string
+        agent_team:
+          type: array
+          items:
+            type: string
+        risk:
+          type: object
+    RenderedMemo:
+      type: object
+      properties:
+        id:
+          type: string
+        markdown:
+          type: string
+    AnalysisReviewResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        run_id:
+          type: string
+        reviewed_at:
+          type: string
+        symbol:
+          type: string
+        provider:
+          type: string
+        currency:
+          type: string
+          enum: [KZT, USD, EUR, RUB]
+        entry_price:
+          type: number
+        current_price:
+          type: number
+        return_percent:
+          type: number
+        days_elapsed:
+          type: integer
+        horizon_days:
+          type: integer
+        thesis_status:
+          type: string
+        verdict:
+          type: string
+        learning_note:
+          type: string
+        next_actions:
+          type: array
+          items:
+            type: string
+        source_note:
+          type: string
+    AnalysisReviewSummary:
+      type: object
+      properties:
+        id:
+          type: string
+        run_id:
+          type: string
+        reviewed_at:
+          type: string
+        symbol:
+          type: string
+        provider:
+          type: string
+        thesis_status:
+          type: string
+        return_percent:
+          type: number
+    MobileActionState:
+      type: object
+      properties:
+        title:
+          type: string
+        primary_label:
+          type: string
+        secondary_label:
+          type: string
+        risk_badge:
+          type: string
+        action:
+          type: string
+        message:
+          type: string
+    MobileSessionRequest:
+      type: object
+      properties:
+        profile:
+          $ref: "#/components/schemas/FinancialProfile"
+        symbol:
+          type: string
+        provider:
+          type: string
+        amount:
+          type: number
+        horizon_days:
+          type: integer
+        thesis:
+          type: string
+        watchlist:
+          type: array
+          items:
+            type: string
+        include_review:
+          type: boolean
+    MobileSessionResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        generated_at:
+          type: string
+        mode:
+          type: string
+        profile_summary:
+          type: object
+        market:
+          $ref: "#/components/schemas/MarketSnapshot"
+        fx_rate:
+          oneOf:
+            - $ref: "#/components/schemas/FxRate"
+            - type: "null"
+        scenarios:
+          type: array
+          items:
+            type: object
+        agent_brief:
+          type: object
+        analysis:
+          type: object
+        review:
+          oneOf:
+            - $ref: "#/components/schemas/AnalysisReviewResponse"
+            - type: "null"
+        radar:
+          type: object
+        portfolio:
+          type: object
+        market_brief:
+          type: object
+        action_state:
+          $ref: "#/components/schemas/MobileActionState"

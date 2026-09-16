@@ -1,0 +1,194 @@
+{"kind":"deck","id":"pr/jwi681","name":"Deck"}
+{"kind":"layout","layoutId":"546b3c29-5411-4d17-815d-63a26d2f8f92","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"7528ed02-f7c5-43b7-949c-f0c20fd72574","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/or88an","slide":1,"title":"AI-наставник для первого инвестора","textShapes":8}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"text":"AI-наставник для первого инвестора","textPreview":"AI-наставник для первого инвестора","textChars":34,"textLines":1,"bbox":[42,42,620,34]}
+{"kind":"shape","id":"sh/fyxobm58","slide":1,"bbox":[42,96,145,4]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,165,850,185]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":1,"text":"Личная операционная система финансового мышления: от расходов до первых инвестиций.","textPreview":"Личная операционная система финансового мышления: от расходов до первых инвестиций.","textChars":83,"textLines":1,"bbox":[42,388,600,96]}
+{"kind":"shape","id":"sh/8v6psfil","slide":1,"bbox":[790,96,404,434]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"text":"$100","textPreview":"$100","textChars":4,"textLines":1,"bbox":[850,170,270,86]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":1,"text":"свободных денег","textPreview":"свободных денег","textChars":15,"textLines":1,"bbox":[855,266,260,38]}
+{"kind":"shape","id":"sh/1gvy90je","slide":1,"bbox":[850,330,245,1]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":1,"text":"не сигнал к покупке,\nа карта риска и урок\nна реальном примере","textPreview":"не сигнал к покупке, | а карта риска и урок | на реальном примере","textChars":61,"textLines":3,"bbox":[855,365,285,126]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":1,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/or88an","slide":1,"text":""}
+{"kind":"slide","id":"sl/kd8sse","slide":2,"title":"Инвестировать легко.","textShapes":10}
+{"kind":"textbox","id":"sh/4zidonyd","slide":2,"text":"Инвестировать легко.\nПонять риск - трудно","textPreview":"Инвестировать легко. | Понять риск - трудно","textChars":41,"textLines":2,"bbox":[42,40,540,170]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":2,"text":"Начинающий инвестор может купить акцию за минуту, но в момент решения остается один на один с неопределенностью.","textPreview":"Начинающий инвестор может купить акцию за минуту, но в момент решения остается один на один с неопределенностью.","textChars":112,"textLines":1,"bbox":[42,246,455,190]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":2,"bbox":[655,92,543,476]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":2,"text":"ДОСТУП","textPreview":"ДОСТУП","textChars":6,"textLines":1,"bbox":[705,125,160,26]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":2,"text":"Брокерское приложение уже в кармане","textPreview":"Брокерское приложение уже в кармане","textChars":35,"textLines":1,"bbox":[705,159,405,64]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":2,"bbox":[705,237,400,1]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":2,"text":"ПРОБЕЛ","textPreview":"ПРОБЕЛ","textChars":6,"textLines":1,"bbox":[705,255,160,26]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":2,"text":"Курсы учат отдельно от реального выбора","textPreview":"Курсы учат отдельно от реального выбора","textChars":39,"textLines":1,"bbox":[705,289,405,64]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":2,"bbox":[705,367,400,1]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":2,"text":"РИСК","textPreview":"РИСК","textChars":4,"textLines":1,"bbox":[705,385,160,26]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":2,"text":"Эмоция часто сильнее расчета","textPreview":"Эмоция часто сильнее расчета","textChars":28,"textLines":1,"bbox":[705,419,405,64]}
+{"kind":"shape","id":"sh/oj2t83it","slide":2,"bbox":[705,497,400,1]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":2,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/61032lsz","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/kd8sse","slide":2,"text":""}
+{"kind":"slide","id":"sl/q5mpwu","slide":3,"title":"FInAI соединяет две роли: аналитик-консультант и учитель","textShapes":12}
+{"kind":"textbox","id":"sh/3m94fu18","slide":3,"text":"FInAI соединяет две роли: аналитик-консультант и учитель","textPreview":"FInAI соединяет две роли: аналитик-консультант и учитель","textChars":56,"textLines":1,"bbox":[42,40,810,98]}
+{"kind":"shape","id":"sh/s72x4nap","slide":3,"bbox":[42,190,370,342]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[67,216,92,46]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":3,"text":"Понимает твои деньги","textPreview":"Понимает твои деньги","textChars":20,"textLines":1,"bbox":[67,282,300,72]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":3,"text":"Доходы, траты, обязательные платежи и свободная сумма становятся контекстом решения.","textPreview":"Доходы, траты, обязательные платежи и свободная сумма становятся контекстом решения.","textChars":84,"textLines":1,"bbox":[67,378,300,118]}
+{"kind":"shape","id":"sh/sji5snel","slide":3,"bbox":[440,190,370,342]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[465,216,92,46]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":3,"text":"Считает рыночный риск","textPreview":"Считает рыночный риск","textChars":21,"textLines":1,"bbox":[465,282,300,72]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":3,"text":"Агенты, новости, цена, волатильность и сценарии показывают диапазон последствий.","textPreview":"Агенты, новости, цена, волатильность и сценарии показывают диапазон последствий.","textChars":80,"textLines":1,"bbox":[465,378,300,118]}
+{"kind":"shape","id":"sh/z61032ls","slide":3,"bbox":[838,190,370,342]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[863,216,92,46]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":3,"text":"Объясняет экономику","textPreview":"Объясняет экономику","textChars":19,"textLines":1,"bbox":[863,282,300,72]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"Пользователь учится на собственном примере, когда на кону его реальные деньги.","textPreview":"Пользователь учится на собственном примере, когда на кону его реальные деньги.","textChars":78,"textLines":1,"bbox":[863,378,300,118]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":3,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/q5mpwu","slide":3,"text":""}
+{"kind":"slide","id":"sl/h4eeeu","slide":4,"title":"Продукт собирает личные деньги и рынок в один контекст","textShapes":13}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":4,"text":"Продукт собирает личные деньги и рынок в один контекст","textPreview":"Продукт собирает личные деньги и рынок в один контекст","textChars":54,"textLines":1,"bbox":[42,40,920,96]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":4,"bbox":[55,225,180,150]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"Расходы\nи доходы","textPreview":"Расходы | и доходы","textChars":16,"textLines":2,"bbox":[65,264,160,72]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":4,"bbox":[245,299,74,3]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[321,282,25,36]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":4,"bbox":[285,225,180,150]}
+{"kind":"textbox","id":"sh/0z61032l","slide":4,"text":"Свободные\nденьги","textPreview":"Свободные | деньги","textChars":16,"textLines":2,"bbox":[295,264,160,72]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":4,"bbox":[475,299,74,3]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[551,282,25,36]}
+{"kind":"shape","id":"sh/0nuxc3yl","slide":4,"bbox":[515,225,180,150]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":4,"text":"Рыночные\nданные","textPreview":"Рыночные | данные","textChars":15,"textLines":2,"bbox":[525,264,160,72]}
+{"kind":"shape","id":"sh/ih4byhgn","slide":4,"bbox":[705,299,74,3]}
+{"kind":"textbox","id":"sh/72x4nap4","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[781,282,25,36]}
+{"kind":"shape","id":"sh/0z61032l","slide":4,"bbox":[745,225,180,150]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":4,"text":"Агенты\nи расчет","textPreview":"Агенты | и расчет","textChars":15,"textLines":2,"bbox":[755,264,160,72]}
+{"kind":"shape","id":"sh/itgfmlkj","slide":4,"bbox":[935,299,74,3]}
+{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":">","textPreview":">","textChars":1,"textLines":1,"bbox":[1011,282,25,36]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":4,"bbox":[975,225,180,150]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":4,"text":"Понятное\nрешение","textPreview":"Понятное | решение","textChars":16,"textLines":2,"bbox":[985,264,160,72]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":4,"text":"Не отдельный чат. Это слой принятия решений: данные, расчет, объяснение и память о выборе пользователя.","textPreview":"Не отдельный чат. Это слой принятия решений: данные, расчет, объяснение и память о выборе пользователя.","textChars":103,"textLines":1,"bbox":[42,470,850,70]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":4,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/h4eeeu","slide":4,"text":""}
+{"kind":"slide","id":"sl/r8rcwg","slide":5,"title":"Главный демо-сценарий: человек хочет вложить свои первые $100","textShapes":14}
+{"kind":"textbox","id":"sh/j6tovaho","slide":5,"text":"Главный демо-сценарий: человек хочет вложить свои первые $100","textPreview":"Главный демо-сценарий: человек хочет вложить свои первые $100","textChars":61,"textLines":1,"bbox":[42,40,835,98]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":5,"bbox":[60,185,405,380]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":5,"text":"Пользователь","textPreview":"Пользователь","textChars":12,"textLines":1,"bbox":[88,213,250,38]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":5,"text":"“У меня есть $100.\nХочу купить Nvidia\nи понять, не делаю ли\nя глупость.”","textPreview":"“У меня есть $100. | Хочу купить Nvidia | и понять, не делаю ли | я глупость.”","textChars":72,"textLines":4,"bbox":[88,273,335,185]}
+{"kind":"shape","id":"sh/ji5snelo","slide":5,"bbox":[88,485,250,1]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":5,"text":"Агент отвечает не приказом,\nа картой последствий.","textPreview":"Агент отвечает не приказом, | а картой последствий.","textChars":49,"textLines":2,"bbox":[88,509,335,48]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[555,200,54,38]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":5,"text":"можно ли тебе сейчас рисковать этой суммой","textPreview":"можно ли тебе сейчас рисковать этой суммой","textChars":42,"textLines":1,"bbox":[630,202,440,42]}
+{"kind":"shape","id":"sh/jqh0fepk","slide":5,"bbox":[555,262,520,1]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[555,284,54,38]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":5,"text":"что рынок знает про актив сегодня","textPreview":"что рынок знает про актив сегодня","textChars":33,"textLines":1,"bbox":[630,286,440,42]}
+{"kind":"shape","id":"sh/xs72x4na","slide":5,"bbox":[555,346,520,1]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[555,368,54,38]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":5,"text":"какие сценарии возможны для позиции","textPreview":"какие сценарии возможны для позиции","textChars":35,"textLines":1,"bbox":[630,370,440,42]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":5,"bbox":[555,430,520,1]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[555,452,54,38]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":5,"text":"какой урок из этого решения стоит вынести","textPreview":"какой урок из этого решения стоит вынести","textChars":41,"textLines":1,"bbox":[630,454,440,42]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":5,"bbox":[555,514,520,1]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":5,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/r8rcwg","slide":5,"text":""}
+{"kind":"slide","id":"sl/qsm4a3","slide":6,"title":"В MVP должны быть функции, которые сразу ощущаются полезными","textShapes":15}
+{"kind":"textbox","id":"sh/t83itgfm","slide":6,"text":"В MVP должны быть функции, которые сразу ощущаются полезными","textPreview":"В MVP должны быть функции, которые сразу ощущаются полезными","textChars":60,"textLines":1,"bbox":[42,40,930,96]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":6,"bbox":[42,174,552,112]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":6,"text":"Safe-to-try amount","textPreview":"Safe-to-try amount","textChars":18,"textLines":1,"bbox":[66,190,245,30]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":6,"text":"Сколько можно попробовать без вреда для обязательных расходов.","textPreview":"Сколько можно попробовать без вреда для обязательных расходов.","textChars":62,"textLines":1,"bbox":[66,227,485,48]}
+{"kind":"shape","id":"sh/twra5gbq","slide":6,"bbox":[638,174,552,112]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":6,"text":"Сравнение 3 идей","textPreview":"Сравнение 3 идей","textChars":16,"textLines":1,"bbox":[662,190,245,30]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":6,"text":"$100 в акцию, ETF или кэш - на одном экране.","textPreview":"$100 в акцию, ETF или кэш - на одном экране.","textChars":44,"textLines":1,"bbox":[662,227,485,48]}
+{"kind":"shape","id":"sh/47y1kre1","slide":6,"bbox":[42,312,552,112]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":6,"text":"Pre-mortem риска","textPreview":"Pre-mortem риска","textChars":16,"textLines":1,"bbox":[66,328,245,30]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":6,"text":"Три причины, почему идея может провалиться.","textPreview":"Три причины, почему идея может провалиться.","textChars":43,"textLines":1,"bbox":[66,365,485,48]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":6,"bbox":[638,312,552,112]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":6,"text":"Объясни как другу","textPreview":"Объясни как другу","textChars":17,"textLines":1,"bbox":[662,328,245,30]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":6,"text":"Любой термин переводится на язык новичка.","textPreview":"Любой термин переводится на язык новичка.","textChars":41,"textLines":1,"bbox":[662,365,485,48]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":6,"bbox":[42,450,552,112]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"text":"Paper position","textPreview":"Paper position","textChars":14,"textLines":1,"bbox":[66,466,245,30]}
+{"kind":"textbox","id":"sh/rmhk3q5o","slide":6,"text":"Можно следить за виртуальной покупкой без брокера.","textPreview":"Можно следить за виртуальной покупкой без брокера.","textChars":50,"textLines":1,"bbox":[66,503,485,48]}
+{"kind":"shape","id":"sh/y1kre1w7","slide":6,"bbox":[638,450,552,112]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"text":"Дневник решений","textPreview":"Дневник решений","textChars":15,"textLines":1,"bbox":[662,466,245,30]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"text":"Что думал пользователь, что произошло, чему научился.","textPreview":"Что думал пользователь, что произошло, чему научился.","textChars":53,"textLines":1,"bbox":[662,503,485,48]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":6,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/1032lszq","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/qsm4a3","slide":6,"text":""}
+{"kind":"slide","id":"sl/b39c2s","slide":7,"title":"Симуляция показывает риск,","textShapes":8}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":7,"text":"Симуляция показывает риск,\nа не обещает доход","textPreview":"Симуляция показывает риск, | а не обещает доход","textChars":45,"textLines":2,"bbox":[42,40,760,118]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":7,"text":"Пример для позиции $100. Пользователь видит форму риска: где больно, где терпимо, где удачный сценарий.","textPreview":"Пример для позиции $100. Пользователь видит форму риска: где больно, где терпимо, где удачный сценарий.","textChars":103,"textLines":1,"bbox":[42,200,420,115]}
+{"kind":"shape","id":"sh/c7u54zid","slide":7,"bbox":[540,185,640,360]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":7,"text":"Плохой","textPreview":"Плохой","textChars":6,"textLines":1,"bbox":[585,485,100,28]}
+{"kind":"textbox","id":"sh/1032lszq","slide":7,"text":"Базовый","textPreview":"Базовый","textChars":7,"textLines":1,"bbox":[805,485,105,28]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":7,"text":"Удачный","textPreview":"Удачный","textChars":7,"textLines":1,"bbox":[1020,485,120,28]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":7,"text":"Юридическая рамка: продукт не говорит “покупай” или “продавай”. Он объясняет риск и неопределенность.","textPreview":"Юридическая рамка: продукт не говорит “покупай” или “продавай”. Он объясняет риск и неопределенность.","textChars":101,"textLines":1,"bbox":[42,515,390,72]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"chart","id":"ch/zidonyd0","slide":7,"name":"","chartType":"bar","bbox":[575,225,555,235]}
+{"kind":"notes","id":"nt/b39c2s","slide":7,"text":""}
+{"kind":"slide","id":"sl/5r0dz4","slide":8,"title":"Мы похожи на Aladdin и Palantir по логике, но меняем объект анализа","textShapes":15}
+{"kind":"textbox","id":"sh/loj2t83i","slide":8,"text":"Мы похожи на Aladdin и Palantir по логике, но меняем объект анализа","textPreview":"Мы похожи на Aladdin и Palantir по логике, но меняем объект анализа","textChars":67,"textLines":1,"bbox":[42,40,900,96]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":8,"bbox":[82,170,1095,52]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":8,"text":"Система","textPreview":"Система","textChars":7,"textLines":1,"bbox":[100,184,250,25]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":8,"text":"Что видит","textPreview":"Что видит","textChars":9,"textLines":1,"bbox":[350,184,390,25]}
+{"kind":"textbox","id":"sh/lwval87e","slide":8,"text":"Почему это важно","textPreview":"Почему это важно","textChars":16,"textLines":1,"bbox":[740,184,455,25]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":8,"text":"Aladdin","textPreview":"Aladdin","textChars":7,"textLines":1,"bbox":[100,236,250,44]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":8,"text":"Портфель и риск института","textPreview":"Портфель и риск института","textChars":25,"textLines":1,"bbox":[350,238,360,48]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":8,"text":"Сценарии, stress-test, риск-факторы","textPreview":"Сценарии, stress-test, риск-факторы","textChars":35,"textLines":1,"bbox":[740,238,425,58]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":8,"bbox":[82,312,1095,1]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":8,"text":"Palantir","textPreview":"Palantir","textChars":8,"textLines":1,"bbox":[100,340,250,44]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":8,"text":"Операционная картина организации","textPreview":"Операционная картина организации","textChars":32,"textLines":1,"bbox":[350,342,360,48]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":8,"text":"Разрозненные данные превращаются в действия","textPreview":"Разрозненные данные превращаются в действия","textChars":43,"textLines":1,"bbox":[740,342,425,58]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":8,"bbox":[82,416,1095,1]}
+{"kind":"shape","id":"sh/5sneloj2","slide":8,"bbox":[82,434,1095,88]}
+{"kind":"textbox","id":"sh/cbulwval","slide":8,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[100,444,250,44]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":8,"text":"Финансовая жизнь человека","textPreview":"Финансовая жизнь человека","textChars":25,"textLines":1,"bbox":[350,446,360,48]}
+{"kind":"textbox","id":"sh/u54zidon","slide":8,"text":"Расходы, рынок и обучение сходятся в одном решении","textPreview":"Расходы, рынок и обучение сходятся в одном решении","textChars":50,"textLines":1,"bbox":[740,446,425,58]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":8,"bbox":[82,520,1095,1]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":8,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/5r0dz4","slide":8,"text":""}
+{"kind":"slide","id":"sl/tzn4kp","slide":9,"title":"Pro-версия ищет ранние","textShapes":13}
+{"kind":"textbox","id":"sh/z61032ls","slide":9,"text":"Pro-версия ищет ранние\nинвестиционные идеи","textPreview":"Pro-версия ищет ранние | инвестиционные идеи","textChars":42,"textLines":2,"bbox":[42,40,760,118]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":9,"text":"Логика та же: много слабых сигналов превращаются в понятную карту решений.","textPreview":"Логика та же: много слабых сигналов превращаются в понятную карту решений.","textChars":74,"textLines":1,"bbox":[42,195,720,40]}
+{"kind":"shape","id":"sh/hcrmhk3q","slide":9,"bbox":[54,285,258,220]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":9,"text":"Thesis Builder","textPreview":"Thesis Builder","textChars":14,"textLines":1,"bbox":[74,310,205,58]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":9,"text":"Критерии рынка превращаются в поисковую гипотезу.","textPreview":"Критерии рынка превращаются в поисковую гипотезу.","textChars":49,"textLines":1,"bbox":[74,392,204,84]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":9,"bbox":[354,285,258,220]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":9,"text":"Startup Radar","textPreview":"Startup Radar","textChars":13,"textLines":1,"bbox":[374,310,205,58]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":9,"text":"Основатели, найм, запуски, GitHub и локальные комьюнити.","textPreview":"Основатели, найм, запуски, GitHub и локальные комьюнити.","textChars":56,"textLines":1,"bbox":[374,392,204,84]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":9,"bbox":[654,285,258,220]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":9,"text":"Deal Memo","textPreview":"Deal Memo","textChars":9,"textLines":1,"bbox":[674,310,205,58]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":9,"text":"Команда, рынок, traction, риски и вопрос: почему сейчас.","textPreview":"Команда, рынок, traction, риски и вопрос: почему сейчас.","textChars":56,"textLines":1,"bbox":[674,392,204,84]}
+{"kind":"shape","id":"sh/h0fepkzu","slide":9,"bbox":[954,285,258,220]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":9,"text":"Warm Intro","textPreview":"Warm Intro","textChars":10,"textLines":1,"bbox":[974,310,205,58]}
+{"kind":"textbox","id":"sh/z61032ls","slide":9,"text":"Путь к основателю через сеть контактов инвестора.","textPreview":"Путь к основателю через сеть контактов инвестора.","textChars":49,"textLines":1,"bbox":[974,392,204,84]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":9,"text":"Отличие от Harmonic: фокус на emerging markets, локальные источники и связка с макроэкономикой региона.","textPreview":"Отличие от Harmonic: фокус на emerging markets, локальные источники и связка с макроэкономикой региона.","textChars":103,"textLines":1,"bbox":[42,555,1030,50]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":9,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/tzn4kp","slide":9,"text":""}
+{"kind":"slide","id":"sl/w7rt4q","slide":10,"title":"За неделю надо показать не идею, а работающий путь пользователя","textShapes":15}
+{"kind":"textbox","id":"sh/je9cvixc","slide":10,"text":"За неделю надо показать не идею, а работающий путь пользователя","textPreview":"За неделю надо показать не идею, а работающий путь пользователя","textChars":63,"textLines":1,"bbox":[42,40,910,96]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":10,"bbox":[70,195,195,180]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":10,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[92,217,44,42]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":10,"text":"Ввести доходы и расходы","textPreview":"Ввести доходы и расходы","textChars":23,"textLines":1,"bbox":[92,282,148,76]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":10,"bbox":[292,195,195,180]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":10,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[314,217,44,42]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":10,"text":"Получить safe-to-try сумму","textPreview":"Получить safe-to-try сумму","textChars":26,"textLines":1,"bbox":[314,282,148,76]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":10,"bbox":[514,195,195,180]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[536,217,44,42]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":10,"text":"Выбрать тикер и сумму","textPreview":"Выбрать тикер и сумму","textChars":21,"textLines":1,"bbox":[536,282,148,76]}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":10,"bbox":[736,195,195,180]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":10,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[758,217,44,42]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":10,"text":"Увидеть сценарии риска","textPreview":"Увидеть сценарии риска","textChars":22,"textLines":1,"bbox":[758,282,148,76]}
+{"kind":"shape","id":"sh/7adsji5s","slide":10,"bbox":[958,195,195,180]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":10,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[980,217,44,42]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":10,"text":"Получить\nобъяснение\nи урок","textPreview":"Получить | объяснение | и урок","textChars":26,"textLines":3,"bbox":[980,282,148,76]}
+{"kind":"shape","id":"sh/wval87ed","slide":10,"bbox":[70,455,1048,110]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":10,"text":"Позиционирование для питча:\nличная операционная система финансового мышления.","textPreview":"Позиционирование для питча: | личная операционная система финансового мышления.","textChars":77,"textLines":2,"bbox":[96,476,970,70]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":10,"text":"Источники контекста: Zubr Capital, BlackRock Aladdin, Palantir Ontology, Harmonic AI.","textPreview":"Источники контекста: Zubr Capital, BlackRock Aladdin, Palantir Ontology, Harmonic AI.","textChars":85,"textLines":1,"bbox":[70,610,970,28]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":10,"text":"FInAI","textPreview":"FInAI","textChars":5,"textLines":1,"bbox":[42,664,160,22]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,664,68,22]}
+{"kind":"notes","id":"nt/w7rt4q","slide":10,"text":""}

@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "FInAI",
+      "path": "."
+    },
+    {
+      "name": "API",
+      "path": "apps/api"
+    },
+    {
+      "name": "Web",
+      "path": "apps/web"
+    },
+    {
+      "name": "Android",
+      "path": "apps/android"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder:FInAI}/apps/api/.venv/bin/python",
+    "editor.formatOnSave": true
+  }
+}
+

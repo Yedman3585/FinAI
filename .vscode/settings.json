@@ -1,0 +1,15 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/apps/api/.venv/bin/python",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/apps/api"
+  ],
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/node_modules": true,
+    "**/.gradle": true
+  },
+  "typescript.tsdk": "apps/web/node_modules/typescript/lib"
+}
+

@@ -1,0 +1,9 @@
+{
+  "name": "FInAI",
+  "short_name": "FInAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfcf7",
+  "theme_color": "#11241d",
+  "description": "Mobile-first AI finance and paper-investing assistant"
+}

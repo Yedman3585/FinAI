@@ -1,0 +1,42 @@
+.DS_Store
+.idea/
+.vscode/.ropeproject/
+
+# Python
+__pycache__/
+*.py[cod]
+.pycache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.cache/
+apps/api/.venv/
+
+# Node
+node_modules/
+dist/
+build/
+.turbo/
+.vite/
+
+# Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.gradle/
+apps/android/build/
+apps/android/app/build/
+apps/android/local.properties
+
+# Secrets
+.env
+.env.*
+!.env.example
+!apps/web/.env.example
+!apps/api/.env.example
+
+# Generated scratch
+work/
+data/

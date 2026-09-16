@@ -1,0 +1,14 @@
+{
+  "name": "finai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-powered personal finance and investment decision platform",
+  "scripts": {
+    "api:dev": "cd apps/api && uvicorn app.main:app --reload --port 8000",
+    "web:dev": "cd apps/web && pnpm dev",
+    "android:debug": "cd apps/android && if [ -x ./gradlew ]; then ./gradlew assembleDebug; else echo 'Gradle wrapper is not available yet. Open apps/android in Android Studio and sync the project first.'; exit 1; fi"
+  },
+  "workspaces": [
+    "apps/web"
+  ]
+}
